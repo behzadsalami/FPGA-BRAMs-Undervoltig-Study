@@ -10,7 +10,7 @@ doi:10.1109/MICRO.2018.00064
 This folder contains the default setting of each FPGA platform (default-setting.csv) as well as the floorplan of the BRAMs, i.e., physical location of BRAMs on the chip (floorplan.csv).
 
 ## Characterization Metholodolgy
-Experiments are performed in normal ambient temperature from Vmin to Vcrash. Vmin is the supply voltage in which the first fault is observed. Vcrash is the supply voltage level beyond which the system crashes without any resonce. in the voltage guardband level (from the nominal to Vmin) there is no fault observed. 
+Experiments are performed in normal ambient temperature from Vmin to Vcrash. Vmin is the supply voltage in which the first fault is observed. Vcrash is the supply voltage level beyond which the system crashes without any resonce. Vmin and Vcrash are slightly different for different platforms. In the voltage guardband level (from the nominal= 1V to Vmin) no fault is observed. 
 
 ## Fault Characterization Raw Data
 This folder contains a sub-folder for each FPGA platform. Each sub-folder contains the raw content of BRAMs for each supply voltage level from Vmin to Vcrash with the steps of 0.01V. The file format is hex and any '0' represents a 1-to-0 bit-flip in the corresponding location of the given BRAMs. The total number of faults is summarized in (platform-Fault.csv).  
