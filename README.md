@@ -6,6 +6,8 @@ B. Salami, O. S. Unsal and A. Cristal Kestelman, "Comprehensive Evaluation of Su
 doi:10.1109/MICRO.2018.00064 
 
 
-# Platform and Floorplan Information
-## floorplan.csv
+## Platform and Floorplan Information
+This folder contains the default setting of each FPGA platform (default-setting.csv) as well as the floorplan of the BRAMs, i.e., physical location of BRAMs on the chip (floorplan.csv).
+
+
 
