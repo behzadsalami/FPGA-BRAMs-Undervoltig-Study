@@ -1,4 +1,4 @@
-# FPGA-BRAM-Voltage-Study
+# FPGA BRAMs-Voltage-Study
 
 Characterization data collected on 4 FPGA platforms from Xilinx including a VC707, two identical samples of KC705, and a ZC702. You can find the background and analysis on the data in our MICRO'18 paper:
 
