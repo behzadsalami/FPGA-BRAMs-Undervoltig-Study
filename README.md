@@ -6,5 +6,6 @@ B. Salami, O. S. Unsal and A. Cristal Kestelman, "Comprehensive Evaluation of Su
 doi:10.1109/MICRO.2018.00064 
 
 
-# Summarized Information
+# Platform and Floorplan Information
+## floorplan.csv
 
