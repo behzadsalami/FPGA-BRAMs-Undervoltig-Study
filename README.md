@@ -13,6 +13,6 @@ This folder contains the default setting of each FPGA platform (default-setting.
 Experiments are performed in normal ambient temperature from Vmin to Vcrash. Vmin is the supply voltage in which the first fault is observed. Vcrash is the supply voltage level beyond which the system crashes without any resonce. in the voltage guardband level (from the nominal to Vmin) there is no fault observed. 
 
 ## Fault Characterization Raw Data
-This folder contains a sub-folder for each FPGA platform. Each sub-folder contains the raw content of BRAMs for each supply voltage level from Vmin to Vcrash with the steps of 0.01V. The file format is hex. The total number of faults is summarized in (platform-Fault.csv).  
+This folder contains a sub-folder for each FPGA platform. Each sub-folder contains the raw content of BRAMs for each supply voltage level from Vmin to Vcrash with the steps of 0.01V. The file format is hex and any '0' represents a 1-to-0 bit-flip in the corresponding location of the given BRAMs. The total number of faults is summarized in (platform-Fault.csv).  
 
 
