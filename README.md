@@ -11,7 +11,7 @@ Experiments are performed in normal ambient temperature from Vmin to Vcrash. Vmi
 ## Fault Characterization
 This folder contains a sub-folder for each FPGA platform. Each sub-folder contains two types of files. 
 
-First, "information.csv" contains information for each platform including the floorplan of the BRAMs, i.e., physical location of BRAMs on the chip, default setting, and the total number of faults in different voltage levels. 
+First, "information-XX.ods" contains information for each platform including the floorplan of the BRAMs, i.e., physical location of BRAMs on the chip, default setting, and the total number of faults in different voltage levels. 
 
 Second, there is a folder (RawData) that contains the raw content of BRAMs for each supply voltage level from Vmin to Vcrash with the steps of 0.01V. The file format is hex and any '0' represents a 1-to-0 bit-flip in the corresponding location of the given BRAMs. 
 
